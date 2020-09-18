@@ -1,0 +1,485 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            outline: 0;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        body {
+                            overflow-x: hidden;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .container {
+                            width: 100vw;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .header {
+                            width: 100%;
+                            min-height: 800px;
+                            padding-top: 25px;
+                            background-image: url(../image/bg.jpg);
+                            background-size: cover;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .menu {
+                            position: sticky;
+                            width: 95%;
+                            margin: 0 auto;
+                            background-color: white;
+                            padding: 10px 0;
+                            padding-right: 2%;
+                            z-index: 1;
+                            height: 35px;
+                            border-radius: 15px;
+                        }
+                        
+                        .menu nav ul {
+                            text-decoration: none;
+                            list-style: none;
+                        }
+                        
+                        .menu ul li {
+                            float: left;
+                            margin-bottom: 30px;
+                        }
+                        
+                        .menu ul li a {
+                            list-style: none;
+                            margin: 0 15px;
+                            color: #b2b1b1;
+                            cursor: pointer;
+                            font-family: 'Nunito', sans-serif;
+                            text-decoration: none;
+                            padding-top: 5px;
+                        }
+                        
+                        .menu nav ul li a:hover {
+                            color: #5bb2f2;
+                        }
+                        
+                        .menu .logo img {
+                            margin-top: -2px;
+                            margin-right: 35px;
+                            margin-left: 25px;
+                            width: 40px;
+                        }
+                        
+                        .login-btn {
+                            right: 20px;
+                            position: absolute;
+                            color: #66686b;
+                            text-decoration: none;
+                            background-origin: border-box;
+                            background-clip: content-box, border-box;
+                            background-color: #f2f4f6;
+                            font-size: 0.85rem;
+                            bottom: -3px;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .login-btn span {
+                            display: block;
+                            padding: 8px 22px;
+                        }
+                        
+                        li a,
+                        .dropbtn {
+                            display: inline-block;
+                            color: white;
+                            text-align: center;
+                            padding: 14px 16px;
+                            text-decoration: none;
+                            height: 30px;
+                        }
+                        
+                        li.dropdown {
+                            display: inline-block;
+                        }
+                        
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: #111118;
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                            z-index: 1;
+                        }
+                        
+                        .dropdown-content a {
+                            color: #88898d;
+                            padding: 12px 16px;
+                            text-decoration: none;
+                            display: block;
+                            text-align: left;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .dropdown-content a:hover {
+                            background-color: #f1f1f1;
+                            border-radius: 7px;
+                            height: 30px;
+                        }
+                        
+                        .dropdown:hover .dropdown-content {
+                            display: block;
+                        }
+                        
+                        .heading {
+                            width: 80%;
+                            height: 70%;
+                            top: 25%;
+                            left: 130px;
+                            position: absolute;
+                            color: white;
+                        }
+                        
+                        .App-text {
+                            width: 50%;
+                            float: left;
+                        }
+                        
+                        .App-text h1 {
+                            font-size: 50px;
+                            width: 640px;
+                            position: relative;
+                            margin-left: 40px;
+                            font-weight: bold;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .App-text p {
+                            width: 650px;
+                            font-size: 20px;
+                            margin: 30px 0 30px 40px;
+                            line-height: 20px;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .button {
+                            border: none;
+                            padding: 20px 32px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 20px;
+                            margin: 30px 0 30px 40px;
+                            transition-duration: 0.4s;
+                            cursor: pointer;
+                            border-radius: 8px;
+                        }
+                        
+                        .button:hover {
+                            opacity: 0.75;
+                        }
+                        
+                        .button1 {
+                            background-color: #dc3545;
+                            color: #f6f2ff;
+                        }
+                        
+                        .button2 {
+                            color: #000000;
+                            background-color: #f6f2ff;
+                        }
+                        
+                        .App-text .credit {
+                            font-size: 12px;
+                        }
+                        
+                        .courses {
+                            width: 100%;
+                            margin: auto;
+                            height: 300px;
+                            margin-top: 20px;
+                            padding: 2%;
+                        }
+                        
+                        .courses .images {
+                            width: 90%;
+                        }
+                        
+                        .courses .images .img {
+                            width: 25%;
+                            float: left;
+                            text-align: left;
+                        }
+                        
+                        .courses .images .img img {
+                            object-fit: cover;
+                            height: 250px;
+                            width: 90%;
+                            margin: 30px;
+                            padding: 30px;
+                        }
+                        
+                        .courses .images .img p {
+                            text-align: center;
+                            font-weight: bold;
+                        }
+                        
+                        .block {
+                            width: 100%;
+                            height: 600px;
+                            margin-top: 150px;
+                        }
+                        
+                        .text {
+                            text-align: center;
+                            height: 30px;
+                        }
+                        
+                        .text p {
+                            font-size: 0.9rem;
+                        }
+                        
+                        .block .icons {
+                            width: 90%;
+                            margin: 80px 10px 50px 70px;
+                        }
+                        
+                        .block .icons .icon-content {
+                            width: 25%;
+                            float: left;
+                            height: 200px;
+                            /* position: relative; */
+                        }
+                        
+                        .block .icons .icon-content .fas {
+                            background-color: #d5e7ff;
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 10px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #0972ff;
+                            font-size: 20px;
+                        }
+                        
+                        .icon-content-title {
+                            font-size: 1rem;
+                            margin: 10px;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .icon-content-text {
+                            color: #d5d5d7;
+                            font-size: 0.85rem;
+                            padding: 10px;
+                        }
+                        
+                        .custom {
+                            width: 100%;
+                            height: 1800px;
+                        }
+                        
+                        .custom-images {
+                            width: 90%;
+                        }
+                        
+                        .custom-images-img {
+                            width: 50%;
+                            float: left;
+                            text-align: left;
+                        }
+                        
+                        .custom-images-img img {
+                            object-fit: cover;
+                            height: 550px;
+                            width: 90%;
+                            margin: 40px;
+                            padding: 40px;
+                        }
+                        
+                        .custom-images-img h3 {
+                            text-align: left;
+                            margin-left: 80px;
+                            margin-bottom: 20px;
+                        }
+                        
+                        .custom-images-img p {
+                            text-align: left;
+                            margin-left: 80px;
+                        }
+                        
+                        .courses-categories {
+                            width: 100%;
+                            height: 300px;
+                        }
+                        
+                        .courses-categories .text {
+                            margin-bottom: 50px;
+                        }
+                        
+                        .courses-categories-content {
+                            width: 30%;
+                            float: left;
+                            margin-top: 30px;
+                            margin-left: 40px;
+                        }
+                        
+                        .courses-categories-title {
+                            margin-bottom: 20px;
+                        }
+                        
+                        .courses-categories-text p {
+                            color: gray;
+                            font-size: 0.9rem;
+                        }
+                        
+                        .banner {
+                            width: 90%;
+                            background-image: url(../image/pattern.jpg);
+                            min-height: 400px;
+                            background-size: cover;
+                            margin-left: 57px;
+                        }
+                        
+                        .banner-content {
+                            width: 50%;
+                            float: left;
+                            margin-left: 50px;
+                        }
+                        
+                        .banner-content h3 {
+                            font-size: 40px;
+                            position: relative;
+                            margin-left: 40px;
+                            font-weight: bold;
+                            margin-top: 12%;
+                        }
+                        
+                        .button3 {
+                            color: #000000;
+                            background-color: #f6f2ff;
+                        }
+                        
+                        .newsletter {
+                            margin-top: 30px;
+                        }
+                        
+                        .form {
+                            height: 150px;
+                        }
+                        
+                        .form form {
+                            float: left;
+                            text-align: center;
+                            width: 50%;
+                        }
+                        
+                        .form form input {
+                            width: 30%;
+                            height: 50px;
+                            border-radius: 5px;
+                            margin-top: 30px;
+                            margin-left: 500px;
+                        }
+                        
+                        .button4 {
+                            color: #f1f1f1;
+                            background-color: #4b5ed7;
+                            font-size: 15px;
+                        }
+                        
+                        .partner {
+                            height: 300px;
+                            width: 100%;
+                            margin-top: 30px;
+                        }
+                        
+                        .partner-images {
+                            width: 80%;
+                            margin-left: 100px;
+                            margin-top: 5%;
+                        }
+                        
+                        .imagee {
+                            width: 25%;
+                            float: left;
+                            text-align: center;
+                        }
+                        
+                        .partner-images img {
+                            height: 100px;
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                        
+                        .testimonial {
+                            width: 100%;
+                            height: 370px;
+                        }
+                        
+                        .testimonial .next {
+                            margin-top: 100px;
+                            float: left;
+                            width: 25%;
+                            padding: 30px;
+                            border-radius: 5px;
+                            margin-left: 32px;
+                        }
+                        
+                        .next {
+                            padding: 5px;
+                        }
+                        
+                        .next .test-text {
+                            text-align: center;
+                            font-weight: 300;
+                            font-size: 20px;
+                            font-family: 'PT Sans', sans-serif;
+                        }
+                        
+                        .next .test-image {
+                            text-align: center;
+                        }
+                        
+                        .next .test-image img {
+                            border-radius: 50%;
+                            height: 60px;
+                            width: 60px;
+                            object-fit: cover;
+                            margin: 15px;
+                        }
+                        
+                        .footer {
+                            height: 200px;
+                            width: 100%;
+                            background-color: #f2f4f6;
+                        }
+                        
+                        .footer-copyright {
+                            text-align: center;
+                            padding-top: 30px;
+                            color: #7d7e83;
+                            font-family: 'Nunito', sans-serif;
+                        }
+                        
+                        .footer-info {
+                            width: 100%;
+                            margin-left: 15%;
+                            margin-top: 30px;
+                        }
+                        
+                        .f-icons {
+                            width: 30%;
+                            float: left;
+                            font-size: 15px;
+                            color: #7d7e83;
+                        }
+                        
+                        .footer-social {
+                            text-align: center;
+                        }
+                        
+                        .footer-social .fab {
+                            font-size: 23px;
+                            padding: 10px 5px;
+                            color: #7d7e83;
+                            margin-top: 10px;
+                        }
